@@ -1,8 +1,14 @@
 body {
-   font-family: 'Fredericka the Great', cursive;
+   /* font-family: 'Fredericka the Great', cursive; */
+   /* font-family: 'Monoton', cursive; */
+   font-family: 'Cabin Sketch', cursive;
+   /* font-family: 'Love Ya Like A Sister', cursive; */
+   /* font-family: 'Shojumaru', cursive; */
+
    font-size: bolder;
  }
 
+/* navbar */
 ul li {
  float: right;
  list-style: none;
@@ -28,12 +34,10 @@ li a:hover {
 }
 
 .left a:hover {
-
  /*Transition*/
  -webkit-transition:All .5s ease;
  -moz-transition:All .5s ease;
  -o-transition:All .5s ease;
-
  /*Transform*/
  -webkit-transform: rotate(-10deg) scale(1.2);
  -moz-transform: rotate(-10deg) scale(1.2);
@@ -41,14 +45,56 @@ li a:hover {
 }
 
 .right a:hover {
-
  /*Transition*/
  -webkit-transition:All .5s ease;
  -moz-transition:All .5s ease;
  -o-transition:All .5s ease;
-
  /*Transform*/
  -webkit-transform: rotate(10deg) scale(1.2);
  -moz-transform: rotate(10deg) scale(1.2);
  -o-transform: rotate(10deg) scale(1.2);
+}
+/* navbar end  */
+
+.headings {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.description {
+  font-size: 1.8rem;
+}
+
+.nav_logo {
+  float: left;
+}
+
+.VaterStaat {
+  width: 85%;
+  border-radius: 250px;
+}
+
+#About, #Music, #Shows {
+  margin-top: 100px;
+}
+
+.insta {
+  padding-top: 90px;
+  border-radius: 5px;
+}
+
+.insta img {
+  border-radius: 30px;
+  padding: 15px;
+}
+
+.social {
+  display: block;
+  text-align: center;
+
+}
+
+.follow {
+  padding: 9px;
+  padding-top: 50px;
 }
