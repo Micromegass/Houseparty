@@ -4,7 +4,6 @@ body {
    font-family: 'Cabin Sketch', cursive;
    /* font-family: 'Love Ya Like A Sister', cursive; */
    /* font-family: 'Shojumaru', cursive; */
-
    font-size: bolder;
  }
 
@@ -74,7 +73,7 @@ li a:hover {
   border-radius: 250px;
 }
 
-#About, #Music, #Shows {
+#About, #Music, #Shows, #Shop, #Videos {
   margin-top: 100px;
 }
 
@@ -97,4 +96,26 @@ li a:hover {
 .follow {
   padding: 9px;
   padding-top: 50px;
+}
+
+.img-box {
+
+  width: 100%;
+  border-radius: 10px;
+
+}
+
+.album {
+width: 80%;
+border: 2px solid rgb(221, 221, 221);
+box-shadow: 3px 3px rgb(221, 221, 221);
+}
+
+.songlist {
+  text-align: center;
+}
+
+.songlist div {
+  font-size: 2rem;
+  padding-bottom: 20px;
 }
