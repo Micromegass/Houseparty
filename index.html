@@ -5,64 +5,78 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Axel Braunschweiger">
+
   <title>Houseparty</title>
 
+  <!--font awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
 
+  <!--font styles-->
   <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Shojumaru" rel="stylesheet">
 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/app.js"></script>
+
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
   </script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="js/app.js"></script>
+
   <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="images/band/cover.jpg">
+  <link rel="icon" href="images/Houseparty_VaterStaat.jpg">
 
   <body>
-
     <section id="header">
-      <div class="header">
-        <ul id="nav">
-          <li class="left"><a href="#">CONTACT</a></li>
-          <li class="right"><a href="#">SHOP</a></li>
-          <li class="left"><a href="#">SHOWS</a></li>
-          <li class="right"><a href="#">VIDEO</a></li>
-          <li class="right"><a href="#">MUSIC</a></li>
-          <li class="left"><a href="#">ABOUT</a></li>
-          <li class="left"><a href="#">HOME</a></li>
-          <li class="nav_logo" class="right"><a href="#"><i class="fas fa-home" style="color:	#FF00FF"></i> PARTY</a></li>
-        </ul>
-      </div>
+      <nav class="navbar navbar-static-top col-md-offset-1">
+        <span class="nav_logo hidden-xs" class="right"><i class="fas fa-home" style="color:	#FF00FF"></i> PARTY</span>
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="nav_logo" class="right"><i class="fas fa-home" style="color:	#FF00FF"></i> PARTY</span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="nav-collapse">
+            <ul id="nav" class="nav navbar-nav" style="float:right;">
+              <li class="right hidden-md hidden-sm"><a href="#Home">HOME</a></li>
+              <li class="left hidden-sm"><a href="#About">ABOUT</a></li>
+              <li class="right"><a href="#Music">MUSIC</a></li>
+              <li class="left"><a href="#Video">VIDEO</a></li>
+              <li class="right"><a href="#Shows">SHOWS</a></li>
+              <li class="left"><a href="#Shop">SHOP</a></li>
+              <li class="right"><a href="#Contact">CONTACT</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
 
-      <div class="banner">
-        <div class="banner-img">
-          <img src="images/Houseparty_CD_dup.jpg" alt="Houseparty Band" id="slider1" title="Foto: Jens Schmidt">
+    <section>
+      <div id="Banner" class="img-responsive">
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-12 insta headings" id="instafeed"> </div>
         </div>
       </div>
     </section>
 
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 insta headings" id="instafeed"> </div>
-      </div>
-    </div>
-
-
     <section id="About">
       <div class="container">
         <div class="row">
-          <h2 class="headings">ABOUT HOUSE<span style="color:#FF00FF">P</span>ARTY  <span style="font-size: 1em; color: Tomato;"> <i class="fas fa-pizza-slice"></i> </span></h2>
-          <div class="col-lg-4 box">
+          <h2 class="headings">ABOUT HOUSE<span style="color:#FF00FF">P</span>ARTY  <a href="https://www.dino-pizzakurier.de/" target="_blank"><span style="font-size: 1em; color: Tomato;"> <i class="fas fa-pizza-slice"></i> </span></a></h2>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-5 box">
             <img src="images/Houseparty_VaterStaat.jpg" alt="Houseparty Band" id="VaterStaat" class="VaterStaat" title="Foto: Jens Schmidt">
           </div>
-
           <div class="col-lg-8 box">
             <p class="description"><strong>HOUSEPARTY</strong> (GER, Raptor Records) is a four-piece partymachine hailing from Nürnberg (GER) fueled by pizza and weißbier. It's stripped down indie-surf-punk, topped with catchy melodies. After their debut-EP “keept it simple”
               (Raptor Records) from Spring 2018, they will release their debut-album in June 2019. The Band started in summer of 2018 and came out of some other successful projects like garage-pop-punx “No Fun” or indie-rockers “The Fountains”. Being
@@ -71,99 +85,115 @@
               Wonk Unit. The band is available for festival slots in 2019 all around Europe as well as for headline and support shows/tours. Houseparty comes from the DIY-scene and also loves to do house-shows, rehearsal-room-shows or soli-shows for the
               politically-oppressed. If you can help out with a show, please feel free to hit us up.</p>
           </div>
-
           <div class="social">
-            <span style="font-size: 3em; color: Tomato;"><i class="follow fas fa-compact-disc"></i></span>
-            <span style="font-size: 3em; color: Blue;"><i class="follow fab fa-facebook-f"></i></span>
-            <span style="font-size: 3em; color: Orange;"><i class="follow fab fa-instagram"></i></span>
+            <a href="https://housepartypunk.bandcamp.com/track/arco-di-lido" target="_blank"> <span style="font-size: 3em; color: Tomato;"><i class="follow fas fa-compact-disc"></i></span></a>
+            <a href="https://www.facebook.com/housepartypunk/" target="_blank"> <span style="font-size: 3em; color: Blue;"><i class="follow fab fa-facebook-f"></i></span></a>
+            <a href="https://www.instagram.com/housepartypunk/" target="_blank"> <span style="font-size: 3em; color: Orange;"><i class="follow fab fa-instagram"></i></span></a>
           </div>
         </div>
       </div>
     </section>
 
     <section id="Music">
-        <div class="container">
-            <div class="row">
-              <h2 class="headings"> MUSIC </h2> <br>
-
-              <div class="col-md-6 box">
-                  <img class="album" src="images/Houseparty_Album.jpg" alt="Houseparty Album">
-              </div>
-
-              <div class="songlist col-md-6 box">
-                    <div>1.You are the gravy to the mashed potato that is my heart </div>
-                    <div>2.There's no problem you can't handle by running away </div>
-                    <div>3.In the pub with my homies </div>
-                    <div>4.I got 99 problems and calling a woman bitch is one</div>
-                    <div>5.Hummus where the heart is </div>
-                    <div>6.Arco di lido</div>
-                    <div>7.Red lights are made for kissing</div>
-
-                    <br><br><br>
-
-
-                <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2945660436/size=small/bgcol=333333/linkcol=fe7eaf/transparent=true/" seamless><a href="https://housepartypunk.bandcamp.com/track/you-are-the-gravy-to-the-mashed-potato-that-is-my-heart">Keep It Simple by Houseparty</a></iframe>              </div>
+      <div class="container">
+        <div class="row">
+          <h2 class="headings"><span style="font-size: 0.5em; color: Tomato;"><i class="follow fas fa-heart"> </i></span> MUSIC </h2>
+          <div class="img-album col-md-6 col-md-offset-0 col-lg-6 col-sm-10 col-sm-offset-2 col-xs-10 col-xs-offset-2 box">
+            <img class="album" src="images/Houseparty_Album.jpg" alt="Houseparty Album">
+          </div>
+          <div class="songlist col-md-6 col-md-offset-0 col-sm-10 col-xs-10 col-xs-offset-1 box">
+            <div>1.You are the gravy to the mashed potato that is my heart </div>
+            <div>2.There's no problem you can't handle by running away </div>
+            <div>3.In the pub with my homies </div>
+            <div>4.I got 99 problems and calling a woman bitch is one</div>
+            <div>5.Hummus where the heart is </div>
+            <div>6.Arco di lido</div>
+            <div>7.Red lights are made for kissing</div>
+            <div class="bandcamp col-sm-12 col-xs-10 col-xs-offset-1 col-lg-offset-0 col-sm-offset-0 col-md-offset-0">
+              <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2945660436/size=small/bgcol=333333/linkcol=fe7eaf/transparent=true/" seamless><a href="https://housepartypunk.bandcamp.com/track/you-are-the-gravy-to-the-mashed-potato-that-is-my-heart">Keep It Simple by Houseparty</a></iframe>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
-
-    <section id="Videos">
+    <section id="Video">
       <div class="container">
         <div class="row">
           <h2 class="headings"> V<span style="color:#FF00FF">i</span>DEO </h2>
-          <div class="col-lg-12"> <iframe class="col-md-12 col-sm-9 col-xs-9 col-xs-offset-2 col-md-offset-0" style="height: 75vh" src="https://www.youtube.com/embed/8afyD-zrLJY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          <div class="col-lg-12"> <iframe class="col-md-12 col-sm-12 col-xs-12 col-xs-offset-0 col-sm-offset-0 col-md-offset-0" style="height: 75vh" src="https://www.youtube.com/embed/8afyD-zrLJY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe></div>
         </div>
       </div>
     </section>
 
-
     <section id="Shows">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-xs-12">
+          <div class="col-sm-12 col-md-12 col-xs-12 col-xs-offset-0 col-sm-offset-0 col-md-offset-0">
             <div class="songkick">
-              <h2 class="headings"> SHO<span style="color:#FF00FF">W</span>S </h2>
-              <iframe style="height: 350px;" src="https://widget.songkick.com/songkick-widget.html?artist=8613194" class="col-xs-offset-1 col-md-offset-0 col-sm-offset-0 col-sm-10 col-md-12 col-xs-10"></iframe>
+              <h2 class="headings"> SHOWS </h2>
+              <iframe style="height: 350px;" src="https://widget.songkick.com/songkick-widget.html?artist=9930364" class="col-xs-offset-1 col-md-offset-0 col-sm-offset-0 col-sm-12 col-md-12 col-xs-10" data-theme="dark" data-track-button="on" data-detect-style="true" data-font-color="#ff6bd8"></iframe>
             </div>
           </div>
         </div>
       </div>
     </section>
-
 
     <section id="Shop">
       <div class="container">
         <div class="row">
-          <h2 class="headings">SHOP</h2>
-
-          <div class="box col-lg-4">
+          <h2 class="headings">SUPPORT US</h2>
+          <div class="box col-lg-4 col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0">
             <div>
-              <h3 class="headings"><strong>Digipak CD</strong> (Compact Disc (CD) + Digital Album).</h3>
+              <a href="https://raptorrecordsnbg.bigcartel.com/product/houseparty-keep-it-simple-cd" target="_blank"><h3 class="headings"><strong>Digipak</strong> (CD + Digital Album) 8€</h3></a>
               <img class="img-box" src="images/Houseparty_CD.jpg" alt="Buy Cd">
             </div>
             <div>
-              <p> Includes unlimited streaming of Keep It Simple via the free Bandcamp app, plus high-quality download in MP3, FLAC and more. </p>
+              <p class="textshop"> Includes unlimited streaming of Keep It Simple via the free Bandcamp app, plus high-quality download in MP3, FLAC and more. </p>
             </div>
-
           </div>
-
-          <div class="box col-lg-4">
-            <h3 class="headings"><strong>Cassette</strong></h3>
-            <img class="img-box" src="images/Houseparty_USB.jpg" alt="Buy USB">
-            <p>Pretty in pink cassettes. Recorded DIY just like an old skate mix tape. Only we're too lazy to skate. Includes unlimited streaming of Keep It Simple via the free Bandcamp app, plus high-quality download in MP3, FLAC and more.</p>
+          <div class="box col-lg-4 col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0">
+            <a href="https://raptorrecordsnbg.bigcartel.com/product/houseparty-keep-it-simple-cd" target="_blank"><h3 class="headings"><strong>Cassette</strong> 8€</h3></a>
+            <img class="img-box" src="images/Houseparty_Cassette.jpg" alt="Buy USB">
+            <p class="textshop">Pretty in pink cassettes. Recorded DIY just like an old skate mix tape. Only we're too lazy to skate. Includes unlimited streaming of Keep It Simple via the free Bandcamp app, plus high-quality download in MP3, FLAC and more.</p>
           </div>
-
-          <div class="box col-lg-4">
-            <h3 class="headings"><strong>USB Drive</strong></h3>
-            <img class="img-box" src="images/Houseparty_Cassette.jpg" alt="Buy Cassette">
-            <p>The cassette for millennials. Comes in a metallic pink, just like some old cadillac. Or maybe not like that but still quite awesome.</p>
+          <div class="box col-lg-4 col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0">
+            <a href="https://raptorrecordsnbg.bigcartel.com/product/houseparty-keep-it-simple-cd" target="_blank"><h3 class="headings"><strong>USB-Drive</strong> 8€</h3></a>
+            <img class="img-box" src="images/Houseparty_USB.jpg" alt="Buy Cassette">
+            <p class="textshop">The cassette for millennials. Comes in a metallic pink, just like some old cadillac. Or maybe not like that but still quite awesome.</p>
           </div>
+        </div>
+        <div class="nomoney"> NO MONEY? NO PROBLEM: You can get the digital version of our album for only 5€ and our new single for only 1€ on <a href="https://housepartypunk.bandcamp.com/track/arco-di-lido" target="_blank">bandcamp</a>. Or shoot as a message telling us why
+          you can't afford it and we send you a copy for free.</div>
+      </div>
+    </section>
 
+    <section id="Picture">
+      <div class="container">
+        <div class="row">
         </div>
       </div>
     </section>
+
+    <section id="Contact">
+      <div class="container">
+        <div class="row">
+          <h2 class="headings"> CHAT WITH US </h2>
+          <a href="mailto:houseparty@example.de ?Subject=Hello%20again" class="headings email cols-lg-12 col-sm-12 col-md-12 col-xs-12" target="_top">houseparty@pizza.de</a>
+          <div class="col-sm-12 col-md-12 col-xs-12">
+            <div class="social">
+              <a href="https://housepartypunk.bandcamp.com/track/arco-di-lido" target="_blank"><span style="font-size: 3em; color: Tomato; padding:10px;"><i class="fas fa-compact-disc"></i></span></a>
+              <a href="https://www.facebook.com/housepartypunk/" target="_blank"><span style="font-size: 3em; color: Blue;padding:10px"><i class="fab fa-facebook-f"></i></span></a>
+              <a href="https://www.instagram.com/housepartypunk/" target="_blank"><span style="font-size: 3em; color: Orange;padding:10px"><i class="fab fa-instagram"></i></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="headings"> © 2019 All rights reserved </footer>
+
 
 
     <script src="js/custom.js"></script>
@@ -171,6 +201,5 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="js/app.js"></script>
   </body>
-
 
 </html>

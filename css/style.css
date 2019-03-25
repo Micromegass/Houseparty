@@ -1,5 +1,3 @@
-
-
 body {
   /* background: url(../images/pinapple.jpg) no-repeat center center fixed; */
    /* font-family: 'Fredericka the Great', cursive; */
@@ -15,13 +13,14 @@ ul li {
  float: right;
  list-style: none;
  margin-right: 1em;
+ margin-top: 1em;
 }
 
 li a {
  color: black;
  text-decoration: none;
  float: right;
- font-size: 25px;
+ font-size: 23px;
  padding: 12px;
 }
 
@@ -58,6 +57,7 @@ li a:hover {
 }
 /* navbar end  */
 
+
 .headings {
   text-align: center;
   padding-bottom: 30px;
@@ -69,6 +69,9 @@ li a:hover {
 
 .nav_logo {
   float: left;
+  font-size: 2.2rem;
+  margin-top: 1em;
+  margin-left: 15px;
 }
 
 .VaterStaat {
@@ -76,18 +79,22 @@ li a:hover {
   border-radius: 250px;
 }
 
-#About, #Music, #Shows, #Shop, #Videos {
+#About, #Music, #Shows, #Shop, #Videos, #Contact {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .insta {
   padding-top: 90px;
-  border-radius: 5px;
 }
 
 .insta img {
   border-radius: 30px;
   padding: 15px;
+  width: 200px;
+  height: 200px;
+
+
 }
 
 .social {
@@ -102,7 +109,6 @@ li a:hover {
 }
 
 .img-box {
-
   width: 100%;
   border-radius: 10px;
 
@@ -110,8 +116,15 @@ li a:hover {
 
 .album {
 width: 80%;
-border: 2px solid rgb(221, 221, 221);
-box-shadow: 3px 3px rgb(221, 221, 221);
+
+}
+
+.bandcamp {
+  padding-top: 60px;
+}
+
+.img-album {
+  margin-bottom: 30px;
 }
 
 .songlist {
@@ -123,13 +136,55 @@ box-shadow: 3px 3px rgb(221, 221, 221);
   padding-bottom: 20px;
 }
 
+.email {
+  font-size: 3rem;
+}
+
+.textshop {
+  padding-top: 18px;
+  font-size: 1.6rem;
+}
+
+#Banner {
+  background: url(../images/Houseparty_CD_dup.jpg) no-repeat center;
+  max-width: 100%;
+  padding-bottom: 500px;
+}
+
 #Music{
   padding-bottom: 100px;
+  padding-top: 50px;
   background: url(../images/party2.jpeg) no-repeat center center fixed;
 }
 
 #Shows {
   padding-bottom: 100px;
+  padding-top: 50px;
   background: url(../images/candies.jpg) no-repeat center center fixed;
+}
+
+
+#Picture {
+  padding-bottom: 100px;
+  padding-top: 300px;
+  margin-top: 100px;
+  background: url(../images/dinos.jpeg) no-repeat center center fixed;
+
+}
+
+.nomoney {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.email {
+  font-size: 2.5rem;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+footer {
+  font-size: 1.7rem;
+
 
 }
